@@ -10,5 +10,9 @@ for (var i = 1; i <= 100; i++) {
         document.getElementById("text").innerHTML += "Buzz";
     }
 
+    if ( i % 6 == 0) {
+        document.getElementById("text").innerHTML += "Boolean";
+    }
+
     document.getElementById("text").innerHTML += "</br>";
 }
